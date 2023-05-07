@@ -108,7 +108,7 @@ Finally, user can move to the inside method view by click on the Got to Classroo
 <figure>
 <img src="https://user-images.githubusercontent.com/8435152/236658181-4c72ae23-5bee-4b3a-a3ff-a7761cf984b5.png" title="3D Model for Island Metaphor" ><figcaption><p><b>Figure 05. 3D Model for Inside Building</b></p></figcaption>
 </figure>
-<br />
+
 
 Figure. 05 displays the view of inside method. It consists of three walls with more details. The number of boxes in the floor models the number of parameters for each method. The code smell type and error code is shown on the whiteboard in the main wall of the building. 
 
@@ -117,13 +117,13 @@ The smell founded from the process provide the suggestion and tip to solve this 
 <figure>
 <img src="https://user-images.githubusercontent.com/8435152/236658186-ad0660e3-3af8-4721-900a-ca66594d63a4.png" title="3D Model for Island Metaphor" ><figcaption><p><b>Figure 06. Parameter Names of Inside Building</b></p></figcaption>
 </figure>
-<br />
+
 Figure. 06 shows more visualizations about the parameters include in the method. The box on the floor represents the parameters and each popup box contains the parameter name.
 
 <figure>
 <img src="https://user-images.githubusercontent.com/8435152/236658191-bec63212-9f98-4672-b7eb-5feb4d99ff0a.png" title="Code smells % include in the Method" ><figcaption><p><b>Figure 07. Code smells % include in the Method</b></p></figcaption>
 </figure>
-<br />
+
 
 Figure. 07 illustrates how concerns are represented in the Pie chart. The portion colored in dark red correspond to smell code percentage in method that are affected by a specific concern.
 
