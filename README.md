@@ -9,7 +9,7 @@ The metaphors of "island" and "city" are used that it helps to illustrate differ
 
 The tool will be able to generate 3D visualizations for buildings, islands, inside building views according to input dataset. 
 
-#sample date set
+sample data set
 
 {
   "classes" : [
@@ -72,6 +72,22 @@ Zooming, localization and browsing are essential features that are under conside
 This tool will be able to zoom in or out the buildings. The tips, navigations, summery graphs feature helps developers to navigate through buildings in 3D environment. 
 
 ![3D Model for Island Metaphor](https://user-images.githubusercontent.com/8435152/236656083-df177f8d-ab63-4739-99ce-4c5b7251d193.png)
+
+![Message box with details of the Class in Island Metaphor](https://user-images.githubusercontent.com/8435152/236658135-27112591-f796-4eff-8dd9-3041f84c7714.png)
+
+![3D Model for City Metaphor](https://user-images.githubusercontent.com/8435152/236658156-e1a64447-28d3-49f8-b604-cc98555c4e10.png)
+
+![Message box with details of the Method in City Metaphor](https://user-images.githubusercontent.com/8435152/236658165-819646e0-91ed-42dd-a5b3-aca5eb400916.png)
+
+![3D Model for Inside Building](https://user-images.githubusercontent.com/8435152/236658181-4c72ae23-5bee-4b3a-a3ff-a7761cf984b5.png)
+
+![Parameter Names of Inside Building](https://user-images.githubusercontent.com/8435152/236658186-ad0660e3-3af8-4721-900a-ca66594d63a4.png)
+
+![Code smells % include in the Method](https://user-images.githubusercontent.com/8435152/236658191-bec63212-9f98-4672-b7eb-5feb4d99ff0a.png)
+
+
+Currently, visualize the module of the software tool that is developed based on Babylon.js (JavaScript Library), Code Igniter (PHP Framework) and MySQL. The visualizations of development allows us to visually explore the overall architecture in different abstract levels.
+
 
 
 
