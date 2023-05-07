@@ -80,33 +80,33 @@ Figure 01 illustrate the automatically generate class-level mode in the visualiz
 To move to next abstract level need to click on a class. 
 
 <figure>
-<img src="https://user-images.githubusercontent.com/8435152/236658135-27112591-f796-4eff-8dd9-3041f84c7714.png" title="3D Model for Island Metaphor" ><figcaption>Figure 02. Message box with details of the Class in Island Metaphor</figcaption>
+<img src="https://user-images.githubusercontent.com/8435152/236658135-27112591-f796-4eff-8dd9-3041f84c7714.png" title="3D Model for Island Metaphor" ><figcaption><p><b>Figure 02. Message box with details of the Class in Island Metaphor</b></p></figcaption>
 </figure>
-<br />
+
 Figure 02. Pop up message box displays details such as Class Name, number of Code Lines include in the class.
 Is code smell include in class or lower member level ? 
 
 Finally, link to next abstract level.
 
 <figure>
-<img src="https://user-images.githubusercontent.com/8435152/236658156-e1a64447-28d3-49f8-b604-cc98555c4e10.png" title="3D Model for Island Metaphor" ><figcaption>Figure 03. 3D Model for City Metaphor</figcaption>
+<img src="https://user-images.githubusercontent.com/8435152/236658156-e1a64447-28d3-49f8-b604-cc98555c4e10.png" title="3D Model for Island Metaphor" ><figcaption><p><b>Figure 03. 3D Model for City Metaphor</b></p></figcaption>
 </figure>
-<br />
+
 Figure 03 shows the block view for the methods inside the class as the main components of the method level in proposed framework.  
 
 The method block is shown on the different dark colors of the ground represent the class since it is a method related bad smell. These different colors based on their severity. The severity levels are critical, major, minor and info.
 
 
 <figure>
-<img src="https://user-images.githubusercontent.com/8435152/236658165-819646e0-91ed-42dd-a5b3-aca5eb400916.png" title="3D Model for Island Metaphor" ><figcaption>Figure 04. Message box with details of the Method in City Metaphor</figcaption>
+<img src="https://user-images.githubusercontent.com/8435152/236658165-819646e0-91ed-42dd-a5b3-aca5eb400916.png" title="3D Model for Island Metaphor" ><figcaption><p><b>Figure 04. Message box with details of the Method in City Metaphor</b></p></figcaption>
 </figure>
-<br />
+
 When a method includes code smells, this method listed details of code smell type, snippet and it severity in detail. 
 
 Finally, user can move to the inside method view by click on the Got to Classroom button.
 
 <figure>
-<img src="https://user-images.githubusercontent.com/8435152/236658181-4c72ae23-5bee-4b3a-a3ff-a7761cf984b5.png" title="3D Model for Island Metaphor" ><figcaption>Figure 05. 3D Model for Inside Building</figcaption>
+<img src="https://user-images.githubusercontent.com/8435152/236658181-4c72ae23-5bee-4b3a-a3ff-a7761cf984b5.png" title="3D Model for Island Metaphor" ><figcaption><p><b>Figure 05. 3D Model for Inside Building</b></p></figcaption>
 </figure>
 <br />
 
@@ -115,13 +115,13 @@ Figure. 05 displays the view of inside method. It consists of three walls with m
 The smell founded from the process provide the suggestion and tip to solve this code smell issues in right side wall whiteboard.
 
 <figure>
-<img src="https://user-images.githubusercontent.com/8435152/236658186-ad0660e3-3af8-4721-900a-ca66594d63a4.png" title="3D Model for Island Metaphor" ><figcaption>Figure 06. Parameter Names of Inside Building</figcaption>
+<img src="https://user-images.githubusercontent.com/8435152/236658186-ad0660e3-3af8-4721-900a-ca66594d63a4.png" title="3D Model for Island Metaphor" ><figcaption><p><b>Figure 06. Parameter Names of Inside Building</b></p></figcaption>
 </figure>
 <br />
 Figure. 06 shows more visualizations about the parameters include in the method. The box on the floor represents the parameters and each popup box contains the parameter name.
 
 <figure>
-<img src="https://user-images.githubusercontent.com/8435152/236658191-bec63212-9f98-4672-b7eb-5feb4d99ff0a.png" title="Code smells % include in the Method" ><figcaption>Figure 07. Code smells % include in the Method</figcaption>
+<img src="https://user-images.githubusercontent.com/8435152/236658191-bec63212-9f98-4672-b7eb-5feb4d99ff0a.png" title="Code smells % include in the Method" ><figcaption><p><b>Figure 07. Code smells % include in the Method</b></p></figcaption>
 </figure>
 <br />
 
