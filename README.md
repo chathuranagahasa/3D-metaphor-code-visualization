@@ -82,7 +82,7 @@ To move to next abstract level need to click on a class.
 <figure>
 <img src="https://user-images.githubusercontent.com/8435152/236658135-27112591-f796-4eff-8dd9-3041f84c7714.png" title="3D Model for Island Metaphor" ><figcaption>Figure 02. Message box with details of the Class in Island Metaphor</figcaption>
 </figure>
-
+<br />
 Figure 02. Pop up message box displays details such as Class Name, number of Code Lines include in the class.
 Is code smell include in class or lower member level ? 
 
@@ -91,7 +91,7 @@ Finally, link to next abstract level.
 <figure>
 <img src="https://user-images.githubusercontent.com/8435152/236658156-e1a64447-28d3-49f8-b604-cc98555c4e10.png" title="3D Model for Island Metaphor" ><figcaption>Figure 03. 3D Model for City Metaphor</figcaption>
 </figure>
-
+<br />
 Figure 03 shows the block view for the methods inside the class as the main components of the method level in proposed framework.  
 
 The method block is shown on the different dark colors of the ground represent the class since it is a method related bad smell. These different colors based on their severity. The severity levels are critical, major, minor and info.
@@ -100,7 +100,7 @@ The method block is shown on the different dark colors of the ground represent t
 <figure>
 <img src="https://user-images.githubusercontent.com/8435152/236658165-819646e0-91ed-42dd-a5b3-aca5eb400916.png" title="3D Model for Island Metaphor" ><figcaption>Figure 04. Message box with details of the Method in City Metaphor</figcaption>
 </figure>
-
+<br />
 When a method includes code smells, this method listed details of code smell type, snippet and it severity in detail. 
 
 Finally, user can move to the inside method view by click on the Got to Classroom button.
@@ -108,7 +108,7 @@ Finally, user can move to the inside method view by click on the Got to Classroo
 <figure>
 <img src="https://user-images.githubusercontent.com/8435152/236658181-4c72ae23-5bee-4b3a-a3ff-a7761cf984b5.png" title="3D Model for Island Metaphor" ><figcaption>Figure 05. 3D Model for Inside Building</figcaption>
 </figure>
-
+<br />
 
 Figure. 05 displays the view of inside method. It consists of three walls with more details. The number of boxes in the floor models the number of parameters for each method. The code smell type and error code is shown on the whiteboard in the main wall of the building. 
 
@@ -117,13 +117,13 @@ The smell founded from the process provide the suggestion and tip to solve this 
 <figure>
 <img src="https://user-images.githubusercontent.com/8435152/236658186-ad0660e3-3af8-4721-900a-ca66594d63a4.png" title="3D Model for Island Metaphor" ><figcaption>Figure 06. Parameter Names of Inside Building</figcaption>
 </figure>
-
+<br />
 Figure. 06 shows more visualizations about the parameters include in the method. The box on the floor represents the parameters and each popup box contains the parameter name.
 
 <figure>
 <img src="https://user-images.githubusercontent.com/8435152/236658191-bec63212-9f98-4672-b7eb-5feb4d99ff0a.png" title="Code smells % include in the Method" ><figcaption>Figure 07. Code smells % include in the Method</figcaption>
 </figure>
-
+<br />
 
 Figure. 07 illustrates how concerns are represented in the Pie chart. The portion colored in dark red correspond to smell code percentage in method that are affected by a specific concern.
 
