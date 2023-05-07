@@ -115,17 +115,17 @@ Figure. 05 displays the view of inside method. It consists of three walls with m
 The smell founded from the process provide the suggestion and tip to solve this code smell issues in right side wall whiteboard.
 
 <figure>
-<img src="[https://user-images.githubusercontent.com/8435152/236658181-4c72ae23-5bee-4b3a-a3ff-a7761cf984b5.png](https://user-images.githubusercontent.com/8435152/236658186-ad0660e3-3af8-4721-900a-ca66594d63a4.png)" title="3D Model for Island Metaphor" ><figcaption>Figure 06. Parameter Names of Inside Building</figcaption>
+<img src="https://user-images.githubusercontent.com/8435152/236658186-ad0660e3-3af8-4721-900a-ca66594d63a4.png" title="3D Model for Island Metaphor" ><figcaption>Figure 06. Parameter Names of Inside Building</figcaption>
 </figure>
 
 Figure. 06 shows more visualizations about the parameters include in the method. The box on the floor represents the parameters and each popup box contains the parameter name.
 
 <figure>
-<img src="https://user-images.githubusercontent.com/8435152/236658191-bec63212-9f98-4672-b7eb-5feb4d99ff0a.png" title="Code smells % include in the Method" ><figcaption>Figure 06. Code smells % include in the Method</figcaption>
+<img src="https://user-images.githubusercontent.com/8435152/236658191-bec63212-9f98-4672-b7eb-5feb4d99ff0a.png" title="Code smells % include in the Method" ><figcaption>Figure 07. Code smells % include in the Method</figcaption>
 </figure>
 
 
-Figure. 06 illustrates how concerns are represented in the Pie chart. The portion colored in dark red correspond to smell code percentage in method that are affected by a specific concern.
+Figure. 07 illustrates how concerns are represented in the Pie chart. The portion colored in dark red correspond to smell code percentage in method that are affected by a specific concern.
 
 Currently, visualize the module of the software tool that is developed based on Babylon.js (JavaScript Library), Code Igniter (PHP Framework) and MySQL. The visualizations of development allows us to visually explore the overall architecture in different abstract levels.
 
