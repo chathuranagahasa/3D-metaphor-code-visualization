@@ -71,16 +71,18 @@ Zooming, localization and browsing are essential features that are under conside
 
 This tool will be able to zoom in or out the buildings. The tips, navigations, summery graphs feature helps developers to navigate through buildings in 3D environment. 
 
-
-![Message box with details of the Class in Island Metaphor](https://user-images.githubusercontent.com/8435152/236656083-df177f8d-ab63-4739-99ce-4c5b7251d193.png "some title")
+<figure>
+<img src="https://user-images.githubusercontent.com/8435152/236656083-df177f8d-ab63-4739-99ce-4c5b7251d193.png" title="3D Model for Island Metaphor" ><figcaption>Fig1. 3D Model for Island Metaphor</figcaption>
+</figure>
 
 
 Figure 01 illustrate the automatically generate class-level mode in the visualization tool. This perimeter of the cylinder island view vary from the dynamic values in the database and this perimeter calculate based on the number of code lines include in the class. The dark red color used to highlight the code smells including classes. 
 
 To move to next abstract level need to click on a class. 
 
-![Message box with details of the Class in Island Metaphor](https://user-images.githubusercontent.com/8435152/236658135-27112591-f796-4eff-8dd9-3041f84c7714.png)
-
+<figure>
+<img src="https://user-images.githubusercontent.com/8435152/236658135-27112591-f796-4eff-8dd9-3041f84c7714.png" title="3D Model for Island Metaphor" ><figcaption>Fig2. Message box with details of the Class in Island Metaphor</figcaption>
+</figure>
 Pop up message box displays details such as Class Name, number of Code Lines include in the class.
 Is code smell include in class or lower member level ? 
 Finally, link to next abstract level.
