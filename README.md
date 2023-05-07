@@ -10,7 +10,7 @@ The metaphors of "island" and "city" are used that it helps to illustrate differ
 The tool will be able to generate 3D visualizations for buildings, islands, inside building views according to input dataset. 
 
 sample data set
-
+```json
 {
   "classes" : [
     {
@@ -66,7 +66,7 @@ sample data set
   }
  ]
 }
-
+```
 Zooming, localization and browsing are essential features that are under consideration.
 
 This tool will be able to zoom in or out the buildings. The tips, navigations, summery graphs feature helps developers to navigate through buildings in 3D environment. 
