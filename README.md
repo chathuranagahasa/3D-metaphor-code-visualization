@@ -123,7 +123,7 @@ Figure. 06 shows more visualizations about the parameters include in the method.
 <figure>
 <img src="https://user-images.githubusercontent.com/8435152/236658191-bec63212-9f98-4672-b7eb-5feb4d99ff0a.png" title="Code smells % include in the Method" ><figcaption>Figure 06. Code smells % include in the Method</figcaption>
 </figure>
-![]()
+
 
 Figure. 06 illustrates how concerns are represented in the Pie chart. The portion colored in dark red correspond to smell code percentage in method that are affected by a specific concern.
 
