@@ -1,0 +1,453 @@
+{
+    "classes" : [ 
+            {
+            "class_name": "Product Class",
+            "class_id" : 1,
+            "no_of_lines" : 123,
+            "position": [
+                            {
+                                "x": 3,
+                                "y": 1,
+                                "z": 4
+                            }
+                    ],
+            "is_code_smell" : "yes",
+            "smell_type" : "Empty Class",
+            "color_code" : "1, 0, 0",
+            "code_snippet" : "final class DEFAULT { }",
+            "methods" : [
+                {
+                    "method_id" : 1,
+                    "name" : "getTransferData",
+                    "no_of_lines" : "12",
+                    "no_of_attributes" : "int status = 0;",
+                    "is_code_smell" : "no",
+                    "smell_type" : "",
+                    "code_snippet": "",
+                    "color_code" : "1, 1, 1",
+                    "priority" : "",
+                    "class_id" : "1",
+                    "effort" : "9",
+                    "suggested_code" : "",
+                    "suggested_links" : "",
+                    "position": [
+                        {
+                            "x": -5,
+                            "y": 1,
+                            "z": 34
+                        }
+                    ],
+                    "parameters": [
+                        {
+                            "pname" : "String[] args"
+                        },
+                        {
+                            "pname" : "Properties additionalUserProperties"
+                        },
+                        {
+                            "pname" : "ClassLoader coreLoader"
+                        }
+                    ]
+                }
+            ]
+        }
+
+    ]
+}
+                {
+                    "method_id" : 2,
+                    "name" : "AttachmentSerializer",
+                    "no_of_lines" : "3",
+                    "no_of_attributes":"final int prime = 31,int result = 1",
+                    "is_code_smell" : "yes",
+                    "smell_type" : "Duplicate Block",
+                    "code_snippet": "public AttachmentSerializer(Message messageParam) {message = messageParam;}",
+                    "color_code" : "1, 1, 0",
+                    "priority" : "Major",
+                    "class_id" : "1",
+                    "effort" : "7",
+                    "suggestion" : "An issue is created on a file as soon as there is at least one block of duplicated code on this file",
+                    "suggested_links" : "https://stackoverflow.com/questions/62544907/define-a-constant-instead-of-duplicating-this-literal-3-times-sonar",
+                    "position": [
+                        {
+                            "x": -29,
+                            "y": 1,
+                            "z": 15
+                        }
+                    ],
+                    "parameters": [
+                        {
+                            "pname" : "final String pattern"
+                        },
+                        {
+                            "pname" : "final String str"
+                        }
+                    ]
+                },
+                {
+                    "method_id": 3,
+                    "name" : "writeTo",
+                    "no_of_lines" : "17",
+                    "no_of_attributes":"String fileName = null",
+                    "is_code_smell" : "no",
+                    "smell_type" : "",
+                    "code_snippet": "",
+                    "color_code" : "1, 0, 0",
+                    "priority" : "",
+                    "class_id" : "1",
+                    "effort" : "10",
+                    "suggestion" : "",
+                    "suggested_links" : "",
+                    "position": [
+                        {
+                            "x": 10,
+                            "y": 1,
+                            "z": 4
+                        }
+                    ],
+                    "parameters": [
+                        {
+                            "pname" : "final String s"
+                        }
+                    ]
+                },
+                {
+                    "method_id": 4,
+                    "name" : "convertToBufferedImage",
+                    "no_of_lines" : "26",
+                    "no_of_attributes":"Throwable error = null",
+                    "is_code_smell" : "yes",
+                    "smell_type" : "Remove this array creation and simply pass the elements",
+                    "code_snippet": "public void callTheThing() { doTheThing(new String[] { 's1', 's2'});  doTheThing(new String[12]); doTheOtherThing(new String[8]); }",
+                    "color_code" : "1, 0, 1",
+                    "priority" : "Minor",
+                    "class_id" : "1",
+                    "effort" : "10",
+                    "suggestion" : "There’s no point in creating an array solely for the purpose of passing it as a varargs (...) argument; varargs is an array. Simply pass the elements directly. They will be consolidated into an array automatically. Incidentally passing an array where Object ... is expected makes the intent ambiguous: Is the array supposed to be one object or a collection of objects?",
+                    "suggested_links" : "https://stackoverflow.com/questions/58342725/varargs-error-when-using-parameterized-class-in-junit , https://tecknoworks.com/eliminating-code-smells-through-the-use-of-simple-refactorings-part-1/",
+                    "position": [
+                        {
+                            "x": 20,
+                            "y": 1,
+                            "z": 34
+                        }
+                    ],
+                    "parameters": [
+                        {
+                            "pname" : "final FileSelector[] selectors"
+                        }
+                    ]
+                },
+                {
+                    "method_id": 5,
+                    "name" : "showBinary",
+                    "no_of_lines" : "5",
+                    "no_of_attributes":"no",
+                    "is_code_smell" : "yes",
+                    "smell_type" : "Do not forget to remove this deprecated code someday.",
+                    "code_snippet": "@Deprecated public void bar() { }",
+                    "color_code" : "1, 0, 1",
+                    "priority" : "Info",
+                    "class_id" : "1",
+                    "effort" : "30",
+                    "suggestion" : "This rule is meant to be used as a way to track code which is marked as being deprecated. Deprecated code should eventually be removed.",
+                    "suggested_links" : "https://stackoverflow.com/questions/50302887/java-deprecated-apis-and-suppresswarnings-deprecation-practical-approach, https://tecknoworks.com/eliminating-code-smells-through-the-use-of-simple-refactorings-part-1/",
+                    "position": [
+                        {
+                            "x": 29,
+                            "y": 1,
+                            "z": 9
+                        }
+                    ],
+                    "parameters": [
+                        {
+                            "pname" : "String[] args"
+                        },
+                        {
+                            "pname" : "Properties additionalUserProperties"
+                        },
+                        {
+                            "pname" : "ClassLoader coreLoader"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "class_name": "BundlesAction Class",
+            "class_id" : 2,
+            "no_of_lines" : 278,
+            "position": [
+                            {
+                                "x": 29,
+                                "y": 1,
+                                "z": 9
+                            }
+                    ],
+            "is_code_smell" : "yes",
+            "smell_type" : "Smell include in methods",
+            "color_code" : "1, 0, 0",
+            "code_snippet" : "No",
+            "methods" : [
+                {
+                    "method_id" : 1,
+                    "name" : "readFully",
+                    "no_of_lines" : "13",
+                    "no_of_attributes" : "int count = 0, int x = 0",
+                    "is_code_smell" : "yes",
+                    "smell_type" : "Declare x on a separate line.",
+                    "code_snippet": "int count = 0, x = 0;",
+                    "color_code" : "1, 1, 1",
+                    "priority" : "Minor",
+                    "class_id" : "2",
+                    "effort" : "5",
+                    "suggestion" : "Declaring multiple variables on one line is difficult to read.",
+                    "suggested_links" : "https://stackoverflow.com/questions/6838408/how-can-i-declare-and-define-multiple-variables-in-one-line-using-c , https://tecknoworks.com/eliminating-code-smells-through-the-use-of-simple-refactorings-part-1/",
+                    "position": [
+                        {
+                            "x": 41,
+                            "y": 1,
+                            "z": 14
+                        }
+                    ],
+                    "parameters": [
+                        {
+                            "pname" : "String[] args"
+                        },
+                        {
+                            "pname" : "Properties additionalUserProperties"
+                        },
+                        {
+                            "pname" : "ClassLoader coreLoader"
+                        }
+                    ]
+                },
+                {
+                    "method_id" : 2,
+                    "name" : "loadClass",
+                    "no_of_lines" : "36",
+                    "no_of_attributes":"CpioArchiveEntry ret;",
+                    "is_code_smell" : "yes",
+                    "smell_type" : "Define a constant instead of duplicating this literal 'Class' 4 times",
+                    "code_snippet": "log('Class ' + classname + 'loaded from parent loader' + '(parentFirst)',",
+                    "color_code" : "1, 1, 0",
+                    "priority" : "Critical",
+                    "class_id" : "2",
+                    "effort" : "8",
+                    "suggestion" : "Duplicated string literals make the process of refactoring error-prone, since you must be sure to update all occurrences. On the other hand, constants can be referenced from many places, but only need to be updated in a single place.",
+                    "suggested_links" : "https://stackoverflow.com/questions/44561234/scope-of-rule-string-literals-should-not-be-duplicated-squids1192, https://tecknoworks.com/eliminating-code-smells-through-the-use-of-simple-refactorings-part-1/",
+                    "position": [
+                        {
+                            "x": 20,
+                            "y": 1,
+                            "z": 2
+                        }
+                    ],
+                    "parameters": [
+                        {
+                            "pname" : "Manifest other"
+                        },
+                        {
+                            "pname" : "boolean overwriteMain"
+                        },
+                        {
+                            "pname" : "boolean mergeClassPaths"
+                        }
+                    ]
+                },
+                {
+                    "method_id": 3,
+                    "name" : "createAddTypeCreator",
+                    "no_of_lines" : "18",
+                    "no_of_attributes":"int n = 0;long count = 0;",
+                    "is_code_smell" : "yes",
+                    "smell_type" : "Remove this unused method parameter 'parent'",
+                    "code_snippet": "final Project project, final Object parent, final String elementName) throws BuildException {",
+                    "color_code" : "1, 0, 0",
+                    "priority" : "Major",
+                    "class_id" : "2",
+                    "effort" : "10",
+                    "suggestion" : "Unused parameters are misleading. Whatever the values passed to such parameters, the behavior will be the same.",
+                    "suggested_links" : "https://rules.sonarsource.com/java/tag/unused/RSPEC-1172, https://tecknoworks.com/eliminating-code-smells-through-the-use-of-simple-refactorings-part-1/",
+                    "position": [
+                        {
+                            "x": -23,
+                            "y": 1,
+                            "z": 20
+                        }
+                    ],
+                    "parameters": [
+                        {
+                            "pname" : "String desc"
+                        }
+                    ]
+                },
+                {
+                    "method_id": 4,
+                    "name" : "StartProcess",
+                    "no_of_lines" : "4",
+                    "no_of_attributes":"int result = 0;",
+                    "is_code_smell" : "no",
+                    "smell_type" : "",
+                    "code_snippet": "",
+                    "color_code" : "1, 0, 1",
+                    "priority" : "",
+                    "class_id" : "2",
+                    "effort" : "15",
+                    "suggestion" : "",
+                    "suggested_links" : "",
+                    "position": [
+                        {
+                            "x": 12,
+                            "y": 1,
+                            "z": 15
+                        }
+                    ],
+                    "parameters": [
+                        {
+                            "pname" : "String msg"
+                        },
+                        {
+                            "pname" : "int msgLevel"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "class_name": "ImageCompression Class",
+            "class_id" : 3,
+            "no_of_lines" : 150,
+            "position": [
+                            {
+                                "x": 9,
+                                "y": 1,
+                                "z": 1
+                            }
+                    ],
+            "is_code_smell" : "no",
+            "smell_type" : "",
+            "color_code" : "1, 0, 0",
+            "code_snippet" : "",
+            "methods" : [
+                {
+                    "method_id" : 1,
+                    "name" : "Intert",
+                    "no_of_lines" : "18",
+                    "no_of_attributes" : "String result = null",
+                    "is_code_smell" : "no",
+                    "smell_type" : "",
+                    "code_snippet": "",
+                    "color_code" : "1, 1, 1",
+                    "priority" : "",
+                    "class_id" : "3",
+                    "effort" : "3",
+                    "suggestion" : "",
+                    "suggested_links" : "",
+                    "position": [
+                        {
+                            "x": 43,
+                            "y": 1,
+                            "z": 6
+                        }
+                    ],
+                    "parameters": [
+                        {
+                            "pname" : "String[] orders"
+                        },
+                        {
+                            "pname" : "Int id"
+                        }
+                    ]
+                },
+                {
+                    "method_id" : 2,
+                    "name" : "Update",
+                    "no_of_lines" : "36",
+                    "no_of_attributes":"String result = null",
+                    "is_code_smell" : "no",
+                    "smell_type" : "",
+                    "code_snippet": "",
+                    "color_code" : "1, 1, 0",
+                    "priority" : "",
+                    "class_id" : "3",
+                    "effort" : "6",
+                    "suggestion" : "",
+                    "suggested_links" : "",
+                    "position": [
+                        {
+                            "x": 16,
+                            "y": 1,
+                            "z": 25
+                        }
+                    ],
+                    "parameters": [
+                        {
+                            "pname" : "String id"
+                        },
+                        {
+                            "pname" : "String name"
+                        }
+                    ]
+                },
+                {
+                    "method_id": 3,
+                    "name" : "Delete",
+                    "no_of_lines" : "22",
+                    "no_of_attributes":"String result = null",
+                    "is_code_smell" : "no",
+                    "smell_type" : "",
+                    "code_snippet": "",
+                    "color_code" : "1, 0, 0",
+                    "priority" : "",
+                    "class_id" : "3",
+                    "effort" : "30",
+                    "suggestion" : "",
+                    "suggested_links" : "",
+                    "position": [
+                        {
+                            "x": 10,
+                            "y": 1,
+                            "z": 4
+                        }
+                    ],
+                    "parameters": [
+                        {
+                            "pname" : "String id"
+                        }
+                    ]
+                },
+                {
+                    "method_id": 4,
+                    "name" : "Read",
+                    "no_of_lines" : "4",
+                    "no_of_attributes":"String result = null",
+                    "is_code_smell" : "no",
+                    "smell_type" : "",
+                    "code_snippet": "",
+                    "color_code" : "1, 0, 1",
+                    "priority" : "",
+                    "class_id" : "3",
+                    "effort" : "10",
+                    "suggestion" : "",
+                    "suggested_links" : "",
+                    "position": [
+                        {
+                            "x": 21,
+                            "y": 1,
+                            "z": 14
+                        }
+                    ],
+                    "parameters": [
+                        {
+                            "pname" : "PrintWriter writer"
+                        },
+                        {
+                            "pname" : "boolean flatten"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
