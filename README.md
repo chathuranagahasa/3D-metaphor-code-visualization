@@ -71,7 +71,10 @@ Zooming, localization and browsing are essential features that are under conside
 
 This tool will be able to zoom in or out the buildings. The tips, navigations, summery graphs feature helps developers to navigate through buildings in 3D environment. 
 
-![3D Model for Island Metaphor](https://user-images.githubusercontent.com/8435152/236656083-df177f8d-ab63-4739-99ce-4c5b7251d193.png)
+<figure>
+<img src="https://user-images.githubusercontent.com/8435152/236656083-df177f8d-ab63-4739-99ce-4c5b7251d193.png" title="Some Title" ><figcaption>Fig1. Some Title</figcaption>
+</figure>
+
 
 Figure 01 illustrate the automatically generate class-level mode in the visualization tool. This perimeter of the cylinder island view vary from the dynamic values in the database and this perimeter calculate based on the number of code lines include in the class. The dark red color used to highlight the code smells including classes. 
 
